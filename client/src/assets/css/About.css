@@ -1,0 +1,122 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .header {
+    background-color: #2c3e50;
+    color: #95a5a6;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #95a5a6;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    color: #7f8c8d;
+  }
+  
+  .nav .active {
+    color: #e74c3c;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .about-hero {
+    background-image: linear-gradient(to bottom, #f7dc6f, #f1c40f);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .about-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .about-content {
+    margin-top: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-content li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ecf0f1;
+  }
+  
+  .about-content img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .about-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .footer {
+    background-color: #2c3e50;
+    color: #95a5a6;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
